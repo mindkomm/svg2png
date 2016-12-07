@@ -1,0 +1,130 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Svg2Png\n"
+"POT-Creation-Date: 2016-12-07 15:31+0100\n"
+"PO-Revision-Date: 2016-12-06 19:16+0100\n"
+"Last-Translator: Lukas Gächter <hello@lukasgaechter.ch>\n"
+"Language-Team: Lukas Gächter <lukas.gaechter@mind.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: svg2png.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:196
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details"
+"%4$s."
+msgstr ""
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:204
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details"
+"%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:358
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:358
+msgid "Error"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:93
+msgid "Current user"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:94
+msgid "Conversion minutes left today"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:140
+msgid "No conversion minutes left for today. Come back tomorrow!"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:212
+msgid "Settings"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:243
+msgid ""
+"Enter your <a href=\"https://cloudconvert.com\">CloudConvert</a> API key."
+msgstr ""
+
+#: src/Svg2Png/Settings.php:247
+msgid ""
+"Defines how the image should be resized.<br>&ndash; Examples: Resize to "
+"width (1000) or predefined width and height (1000x540).<br>&ndash; If this "
+"value is not empty <strong>Density</strong> will be ignored.<br>&ndash; If "
+"both <strong>Resize</strong> and <strong>Density</strong> are empty, the "
+"resulting PNG will have the same size as the SVG."
+msgstr ""
+
+#: src/Svg2Png/Settings.php:251
+msgid ""
+"Defines what resolution should be applied to the resulting PNG.<br>&ndash; "
+"In PPI, for example: 150<br>&ndash; This value will only be used if "
+"<strong>Resize</strong> is empty."
+msgstr ""
+
+#: src/Svg2Png/Settings.php:363
+msgid "Images with missing fallbacks"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:368
+msgid "Filename"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:369
+msgid "Filepath"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:370
+msgid "Convert"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:381
+msgid "Create fallback"
+msgstr ""
+
+#: src/Svg2Png/Settings.php:384
+msgid "Not enough minutes left"
+msgstr ""
+
+#: src/Svg2Png/Svg2Png.php:106
+msgid "Created PNG fallback for"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Svg2Png"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/MINDKomm/svg2png"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Converts each uploaded SVG to a PNG using CloudConvert"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MIND"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.mind.ch"
+msgstr ""

@@ -1,0 +1,10 @@
+{
+    "autoload": {
+		"psr-4": {
+            "Svg2Png\\": "src/Svg2Png"
+        }
+    },
+    "require": {
+        "cloudconvert/cloudconvert-php": "^2.2"
+    }
+}

@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MIND PNG-Fallback\n"
+"POT-Creation-Date: 2016-12-07 15:32+0100\n"
+"PO-Revision-Date: 2016-12-07 15:32+0100\n"
+"Last-Translator: Lukas Gächter <hello@lukasgaechter.ch>\n"
+"Language-Team: Lukas Gächter <hello@lukasgaechter.ch>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: svg2png.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:196
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sSiehe Details zu Version "
+"%3$s%4$s."
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:204
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$s Details zu Version %3$s"
+"%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:358
+msgid "You do not have permission to install plugin updates"
+msgstr "Du hast nicht die benötigten Rechte, dieses Plugin zu installieren"
+
+#: src/Svg2Png/Licensing/EDD_SL_Plugin_Updater.php:358
+msgid "Error"
+msgstr "Fehler"
+
+#: src/Svg2Png/Settings.php:93
+msgid "Current user"
+msgstr "Aktueller Nutzer"
+
+#: src/Svg2Png/Settings.php:94
+msgid "Conversion minutes left today"
+msgstr "Conversion-Minuten übrig für heute"
+
+#: src/Svg2Png/Settings.php:140
+msgid "No conversion minutes left for today. Come back tomorrow!"
+msgstr "Keine Conversion-Minuten übrig für heute. Schau morgen wieder vorbei!"
+
+#: src/Svg2Png/Settings.php:212
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/Svg2Png/Settings.php:243
+msgid ""
+"Enter your <a href=\"https://cloudconvert.com\">CloudConvert</a> API key."
+msgstr ""
+"Trage deinen <a href=\"https://cloudconvert.com\">CloudConvert</a> API key "
+"ein."
+
+#: src/Svg2Png/Settings.php:247
+msgid ""
+"Defines how the image should be resized.<br>&ndash; Examples: Resize to "
+"width (1000) or predefined width and height (1000x540).<br>&ndash; If this "
+"value is not empty <strong>Density</strong> will be ignored.<br>&ndash; If "
+"both <strong>Resize</strong> and <strong>Density</strong> are empty, the "
+"resulting PNG will have the same size as the SVG."
+msgstr ""
+"Legt fest, wie das Bild in der Größe verändert werden soll.<br>&ndash; "
+"Beispiele: Ändern der Größe auf die Breite (1000) oder vordefinierte Breite "
+"und Höhe (1000x540).<br>&ndash; Wenn dieser Wert wird nicht leer ist, wird "
+"<strong>Density</strong> ignoriert.<br>&ndash; Wenn sowohl <strong>Resize</"
+"strong> als auch <strong>Density</strong> leer sind, wird das resultierende "
+"PNG-Bild die gleiche Grösse haben wie das SVG-Bild."
+
+#: src/Svg2Png/Settings.php:251
+msgid ""
+"Defines what resolution should be applied to the resulting PNG.<br>&ndash; "
+"In PPI, for example: 150<br>&ndash; This value will only be used if "
+"<strong>Resize</strong> is empty."
+msgstr ""
+"Definiert, welche Auflösung das resultierende PNG haben soll.<br>&ndash; In "
+"PPI, zum Beispiel: 150<br>&ndash; Dieser Wert wird nur verwendet, wenn "
+"<strong>Resize</strong> leer ist."
+
+#: src/Svg2Png/Settings.php:363
+msgid "Images with missing fallbacks"
+msgstr "Bilder ohne Fallback"
+
+#: src/Svg2Png/Settings.php:368
+msgid "Filename"
+msgstr "Dateiname"
+
+#: src/Svg2Png/Settings.php:369
+msgid "Filepath"
+msgstr "Dateipfad"
+
+#: src/Svg2Png/Settings.php:370
+msgid "Convert"
+msgstr "Konvertieren"
+
+#: src/Svg2Png/Settings.php:381
+msgid "Create fallback"
+msgstr "Fallback erstellen"
+
+#: src/Svg2Png/Settings.php:384
+msgid "Not enough minutes left"
+msgstr "Nicht genügend Minuten übrig"
+
+#: src/Svg2Png/Svg2Png.php:106
+msgid "Created PNG fallback for"
+msgstr "PNG-Fallback generiert für"
+
+#. Plugin Name of the plugin/theme
+msgid "Svg2Png"
+msgstr "Svg2Png"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/MINDKomm/svg2png"
+msgstr "https://github.com/MINDKomm/svg2png"
+
+#. Description of the plugin/theme
+msgid "Converts each uploaded SVG to a PNG using CloudConvert"
+msgstr ""
+"Konvertiert mithilfe von CloudConvert jedes hochgeladene SVG in ein PNG"
+
+#. Author of the plugin/theme
+msgid "MIND"
+msgstr "MIND"
+
+#. Author URI of the plugin/theme
+msgid "https://www.mind.ch"
+msgstr "https://www.mind.ch"
+
+#~ msgid "https://products.mind.ch/downloads/svg2png"
+#~ msgstr "https://products.mind.ch/downloads/svg2png"
+
+#~ msgid "MIND Kommunikation GmbH"
+#~ msgstr "MIND Kommunikation GmbH"
+
+#~ msgid ""
+#~ "Possible Values: Resize to width (1000) or predefined width and height "
+#~ "(1000x540)"
+#~ msgstr ""
+#~ "Mögliche Werte: Grössenänderung zu bestimmter Breite (1000) oder "
+#~ "vordefinierte Breite und Höhe (1000x540)"
+
+#~ msgid "MIND PNG-Fallback"
+#~ msgstr "MIND PNG-Fallback"
